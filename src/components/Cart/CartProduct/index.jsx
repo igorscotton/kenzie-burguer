@@ -13,7 +13,7 @@ const CartProduct = ({product, cartProducts, setCartProducts}) => {
   }
 
   return (
-    <div className="cart--product">
+    <div key={id} className="cart--product">
       <figure className="cart--figure">
         <img
           src={img}

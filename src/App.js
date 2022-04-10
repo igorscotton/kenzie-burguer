@@ -15,7 +15,6 @@ function App() {
       event.preventDefault()
       return product.name.toLowerCase().includes(event.target[0].value.toLowerCase())
     });
-    console.log(produtos)
     setProductsFilter(produtos)
   }
 
