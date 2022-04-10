@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width: 1000px){
+    .App main{
+      display: flex;
+      align-items: flex-start;
+      margin-top: 32px;
+    }
+}
+
